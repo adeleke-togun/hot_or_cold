@@ -73,6 +73,7 @@ var game = function() {
 		else {
 
 				if (previous_range < current_range) {
+					
 					$(".response p").html("oh No, You are getting Colder. Gustav is going to be mad if you ruin his Pizza")
 				} 
 				else if (previous_range > current_range) {
