@@ -3,38 +3,54 @@
 
 	<head>
 		<title>Hot or Cold</title>
-		<!-- link rel="stylesheet" type="text/css" href="css/style.css"> -->
-		<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css"> 
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+
 	</head>
 
 	<body>
 
+		<header> 
+			<img src="img/header.png">
+		</header>
 
+		<div class="info"> 
+			<p> Help Chef Gustav finish up his pizza. <br /> You have to guess the exact temperature from "0 - 100" that'll be just right to finish up Chef Gustav's Pizza <br /> In the event your guess is wrong, based on your your guess, you will recieve either of two outputs "hotter" which means you are getting closer to the answer or "colder" which means you are getting farther from the answer </p>
+		</div>
 
+		<div class="response">
+			<p></p>
+		</div>
 
+		<div id="game">
+			<ul>
+				<li>
+					<div class="sprites">
+						<img src="img/hotter.png">
+					</div>
+					<div class="error_message">
+						<p></p>
+					</div>
+				</li>
+				<li>
+					<form>
+			  			<fieldset>
+			   			 	<legend>Set Temperature:</legend><br />
+					   			 <input class="user_input" value=""><br><br />
+					    		 <button type="submit" class="guess"> Guess </button>
+					   			 <button type="submit" id="restart"> Restart </button>
+					    </fieldset>
+					</form>
+				</li>
+			</ul>
+		</div>
 
+		<div class="error_message">
+			<p></p>
+		</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 		// <script src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
 		
 	</body>
 
