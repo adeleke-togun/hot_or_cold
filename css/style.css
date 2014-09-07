@@ -22,7 +22,7 @@ header img {
 BODY
 **************************************/
 
-. info {
+.info {
 	padding: 10px 40px;
 	text-align: center;
 }
@@ -67,4 +67,14 @@ button {
   border-width: 1px 1px 3px;
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 10px;
+}
+
+.response {
+  background: #4bc970;
+  opacity: .8;
+  padding: 5px 50px;
+  text-align: center;
+  max-width: 200px;
+  margin: 0 auto;
+  color: #333;
 }

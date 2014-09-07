@@ -1,0 +1,27 @@
+@media screen and (max-width: 550px) {
+
+	header img {
+	width: 100px;
+	margin: 30px 0 0 28vw;
+	}
+
+}
+
+@media screen and (max-width: 650px) {
+
+	header img {
+	width: 300px;
+	margin: 30px 0 0 28vw;
+	}
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+	header img {
+	width: 300px;
+	margin: 30px 0 0 32vw;
+	}
+
+}
