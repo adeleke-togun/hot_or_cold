@@ -22,6 +22,13 @@ header img {
 BODY
 **************************************/
 
+.sprites {
+  background: url(../img/hotter.png) no-repeat center center;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+}
+
 .info {
 	padding: 10px 40px;
 	text-align: center;
@@ -37,9 +44,9 @@ BODY
 	text-align: center;
 }
 
-.sprites img {
+/*.sprites img {
 	width: 200px;
-}
+}*/
 
 #game form {
   max-width: 300px;
